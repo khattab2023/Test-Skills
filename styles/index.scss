@@ -214,34 +214,39 @@ header {
   }
 }
 .part-3 {
-  opacity: 0.8999999762;
-  display: flex;
-  width: 543px;
-  height: 328px;
-  background-color: rgb(35 35 35);
-  padding: 10px;
-  flex-direction: column;
- 
-  align-items: center;
-  justify-content: center;
-   
-    h4 {
-      color: #e8e8e8;
-      text-align: left;
-      font: 400 20px/26px "Josefin Sans", sans-serif;
-    }
-    h2 {
-      color: #e8e8e8;
-      text-align: left;
-      font: 400 16px/26px "Josefin Sans", sans-serif;
+
+  .commerical-1 {
+    padding-left: 33px;
+    background-color: rgba(35, 35, 35, 0.768);
+    width: 543px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 52vh;
+    right: 28vh;
+  }
+  h4 {
+    color: #e8e8e8;
+    text-align: left;
+    font: 400 20px/26px "Josefin Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #e8e8e8;
+    text-align: left;
+    font: 400 16px/26px "Josefin Sans", sans-serif;
+    margin-bottom: 20px;
+  }
+  button {
+    width: 37%;
+    height: 22%;
+    background-color: #5474fd;
+    border: none;
+    a {
+      color: white;
+      text-decoration: none;
+      font: 400 16px/26px 'Aleo', sans-serif;
     }
   }
-
 }
-.rectangle-415, .rectangle-415 * {
-  box-sizing: border-box;
-  }
-.rectangle-415 {
-
- }
-

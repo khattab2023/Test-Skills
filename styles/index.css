@@ -79,11 +79,13 @@ body {
   padding: 0x;
   margin: 0;
 }
+body button:hover {
+  cursor: pointer;
+}
 
 header {
   background-image: url(/images/image\ 1.png);
   background-repeat: no-repeat;
-  position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -91,7 +93,7 @@ header {
   color: #fff;
 }
 header .text {
-  margin-top: 20%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,18 +124,16 @@ header .text p {
   font: 400 14px/40px "Josefin Sans", sans-serif;
 }
 .search-bar button {
-  height: 6%;
   display: flex;
   background-color: #5474fd;
-  width: 7%;
   height: 45px;
   border-block-color: white;
-  font-size: 22px;
   justify-content: space-evenly;
   align-items: center;
 }
 .search-bar .Search {
   color: #ffffff;
+  border-color: #5474fd;
   text-align: center;
   font: 400 14px/26px "Aleo", sans-serif;
   text-transform: uppercase;
@@ -150,10 +150,33 @@ header .text p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 .scroll-down-1 span {
   color: #ffffff;
   text-align: center;
   font: 400 14px/26px "Josefin Sans", sans-serif;
+}
+
+.par {
+  background-color: #5474fd;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+.par h2 {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px/26px "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+.par .menu {
+  display: flex;
+  width: 36%;
+}
+.par .menu a {
+  font: 400 14px/26px Aleo, sans-serif;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=index.css.map */

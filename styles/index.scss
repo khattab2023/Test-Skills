@@ -410,3 +410,125 @@ footer {
     }
   }
 }
+// phone
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  main {
+    max-width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    .header {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      .text {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 55px;
+        h1 {
+          color: #ffffff;
+          text-align: center;
+          font: 700 48px/1px "Josefin Sans", sans-serif;
+          text-transform: uppercase;
+          p {
+            text-align: center;
+            font: 500 60px/102px "Poppins", sans-serif;
+          }
+        }
+      }
+    }
+  }
+ 
+  nav {
+    display: flex;
+    text-align: center;
+    font-size: 8px;
+    flex-direction: column;
+    font-size: 50%;
+    .logo {
+      font-size: 30px;
+    }
+    .menu{
+      width: 80%;
+      a{
+        width: 100%;
+      }
+    }
+  }
+  .part-2{
+    .left-side{
+      .title-1{
+width: 50%;
+      }
+    }
+    .info{
+      width: 50%;
+    }
+  }
+}
+
+// ipad
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+  main {
+    max-width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    nav {
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+      }
+    }
+  }
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 55px;
+      h1 {
+        text-align: center;
+        font: 500 84px/102px "Poppins", sans-serif;
+      }
+    }
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
+  .part-2 {
+    width: 100%;
+    .left-side {
+      .title-1 {
+        width: 80%;
+      }
+      p {
+        width: 80%;
+      }
+    }
+    .images {
+      width: 80%;
+    }
+  }
+}

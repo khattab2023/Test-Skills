@@ -424,4 +424,117 @@ footer .icon li {
   list-style: none;
   margin: 0 10px;
   font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  main {
+    max-width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  main .header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .header .text {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  main .header .text h1 {
+    color: #ffffff;
+    text-align: center;
+    font: 700 48px/1px "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  main .header .text h1 p {
+    text-align: center;
+    font: 500 60px/102px "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    text-align: center;
+    font-size: 8px;
+    flex-direction: column;
+    font-size: 50%;
+  }
+  nav .logo {
+    font-size: 30px;
+  }
+  nav .menu {
+    width: 80%;
+  }
+  nav .menu a {
+    width: 100%;
+  }
+  .part-2 .left-side .title-1 {
+    width: 50%;
+  }
+  .part-2 .info {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+  main {
+    max-width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  main nav {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  main nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .header .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  .header .text h1 {
+    text-align: center;
+    font: 500 84px/102px "Poppins", sans-serif;
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
+  .part-2 {
+    width: 100%;
+  }
+  .part-2 .left-side .title-1 {
+    width: 80%;
+  }
+  .part-2 .left-side p {
+    width: 80%;
+  }
+  .part-2 .images {
+    width: 80%;
+  }
 }/*# sourceMappingURL=index.css.map */

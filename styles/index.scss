@@ -11,12 +11,12 @@ $body-font: "Poppins", sans-serif;
   padding: 0;
 }
 
-body {
+main {
   background-color: white;
   font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
-  padding: 0x;
-  margin: 0;
+  padding: 0;
+  margin: 0 auto;
   button:hover {
     cursor: pointer;
   }
@@ -24,17 +24,18 @@ body {
 
 header {
   background-image: url(/images/image\ 1.png);
-  background-repeat: no-repeat;
-  display: flex;
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+ 
   overflow: hidden;
   text-align: center;
   color: #fff;
   flex-direction: column;
   .text {
     margin-top: 10%;
-    // margin-right: 10%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,6 +126,8 @@ header {
 }
 .part-2 {
   background-image: url(/images/part-2.png);
+  width: 100%;
+  height: 100%;
   display: flex;
   background-repeat: no-repeat;
   width: auto;
@@ -168,17 +171,19 @@ header {
   }
 }
 .images {
-  margin-top: 5%;
-  width: 50%;
+  // margin-top: 5%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   .river {
     padding-right: 10%;
+    margin-top: 10%;
   }
   .Woman {
     padding-left: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 1%;
     height: auto;
     display: flex;
   }
@@ -187,7 +192,7 @@ header {
   display: flex;
   background-color: #333333;
   width: 100%;
-  height: auto;
+  height: 100%;
   flex-direction: column;
   .how-it-works {
     display: flex;
@@ -291,6 +296,73 @@ header {
       color: white;
       text-decoration: none;
       font: 400 16px/26px 'Aleo', sans-serif;
+    }
+  }
+}
+.part-5{
+  background-image: url(/images/image7.png);
+  width: 100%;
+  height: 731px;
+  position: relative;
+  top: -38vh;
+  color: #ffffff;
+  font: 400 36px/26px "Aleo", sans-serif;
+  display: flex;
+  align-items: center;
+h2 {
+  color: #ffffff;
+  margin-bottom: 10%;
+  text-align: center;
+  font: 400 36px/26px 'Aleo', sans-serif;
+
+}
+}
+.group-2{
+  width: 80%;
+  gap: 7%;
+  display: flex;
+  background-color: #333333;
+  padding: 10px;
+  align-items: center;
+  h3{
+    font: 400 22px/26px "Josefin Sans", sans-serif;
+    margin-bottom: 20px;
+   
+  }
+  h4{
+    font: 400 16px/26px "Josefin Sans", sans-serif;
+  }
+}
+footer{
+  background-color: #333333;
+  margin: -39vh auto;
+  justify-content: space-between;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  h2{
+    color: #ffffff;
+    text-align: center;
+    font: 700 28px/1px "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+  }
+  h4{
+    font: 400 22px/2px "Josefin Sans";
+    color: white;
+  }
+  .texet-4{
+    display: flex;
+  }
+  .icon{
+    display: flex;
+   list-style: none;
+   color: white;
+    li{
+      list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
     }
   }
 }

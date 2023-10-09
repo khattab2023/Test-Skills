@@ -72,23 +72,23 @@ footer ul li {
   padding: 0;
 }
 
-body {
+main {
   background-color: white;
   font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
-  padding: 0x;
-  margin: 0;
+  padding: 0;
+  margin: 0 auto;
 }
-body button:hover {
+main button:hover {
   cursor: pointer;
 }
 
 header {
   background-image: url(/images/image\ 1.png);
-  background-repeat: no-repeat;
-  display: flex;
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
   overflow: hidden;
   text-align: center;
   color: #fff;
@@ -187,6 +187,8 @@ header .text p {
 
 .part-2 {
   background-image: url(/images/part-2.png);
+  width: 100%;
+  height: 100%;
   display: flex;
   background-repeat: no-repeat;
   width: auto;
@@ -229,18 +231,19 @@ header .text p {
 }
 
 .images {
-  margin-top: 5%;
-  width: 50%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 .images .river {
   padding-right: 10%;
+  margin-top: 10%;
 }
 .images .Woman {
   padding-left: 10%;
-  margin-bottom: 15%;
+  margin-bottom: 1%;
   height: auto;
   display: flex;
 }
@@ -249,7 +252,7 @@ header .text p {
   display: flex;
   background-color: #333333;
   width: 100%;
-  height: auto;
+  height: 100%;
   flex-direction: column;
 }
 .container .how-it-works {
@@ -353,4 +356,72 @@ header .text p {
   color: white;
   text-decoration: none;
   font: 400 16px/26px "Aleo", sans-serif;
+}
+
+.part-5 {
+  background-image: url(/images/image7.png);
+  width: 100%;
+  height: 731px;
+  position: relative;
+  top: -38vh;
+  color: #ffffff;
+  font: 400 36px/26px "Aleo", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.part-5 h2 {
+  color: #ffffff;
+  margin-bottom: 10%;
+  text-align: center;
+  font: 400 36px/26px "Aleo", sans-serif;
+}
+
+.group-2 {
+  width: 80%;
+  gap: 7%;
+  display: flex;
+  background-color: #333333;
+  padding: 10px;
+  align-items: center;
+}
+.group-2 h3 {
+  font: 400 22px/26px "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.group-2 h4 {
+  font: 400 16px/26px "Josefin Sans", sans-serif;
+}
+
+footer {
+  background-color: #333333;
+  margin: -39vh auto;
+  justify-content: space-between;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+footer h2 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 28px/1px "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+footer h4 {
+  font: 400 22px/2px "Josefin Sans";
+  color: white;
+}
+footer .texet-4 {
+  display: flex;
+}
+footer .icon {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+footer .icon li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
 }/*# sourceMappingURL=index.css.map */

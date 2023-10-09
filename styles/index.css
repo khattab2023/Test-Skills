@@ -283,6 +283,7 @@ header .text p {
   height: 328px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   bottom: 52vh;
   right: 28vh;
@@ -290,14 +291,16 @@ header .text p {
 .part-3 h4 {
   color: #e8e8e8;
   text-align: left;
-  font: 400 20px/26px "Josefin Sans", sans-serif;
+  font: 400 16px/26px "Josefin Sans", sans-serif;
   margin-bottom: 20px;
+  width: 100%;
 }
 .part-3 h2 {
   color: #e8e8e8;
   text-align: left;
-  font: 400 16px/26px "Josefin Sans", sans-serif;
+  font: 400 20px/26px "Josefin Sans", sans-serif;
   margin-bottom: 20px;
+  width: 100%;
 }
 .part-3 button {
   width: 37%;
@@ -306,6 +309,47 @@ header .text p {
   border: none;
 }
 .part-3 button a {
+  color: white;
+  text-decoration: none;
+  font: 400 16px/26px "Aleo", sans-serif;
+}
+
+.part-4 {
+  margin-top: -38vh;
+}
+.part-4 .commerical-2 {
+  padding-left: 33px;
+  background-color: rgba(35, 35, 35, 0.768);
+  width: 543px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 47vh;
+  left: 29vh;
+}
+.part-4 h4 {
+  color: #e8e8e8;
+  text-align: left;
+  font: 400 16px/26px "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.part-4 h2 {
+  color: #e8e8e8;
+  text-align: left;
+  font: 400 20px/26px "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.part-4 button {
+  width: 37%;
+  height: 22%;
+  background-color: #5474fd;
+  border: none;
+}
+.part-4 button a {
   color: white;
   text-decoration: none;
   font: 400 16px/26px "Aleo", sans-serif;
